@@ -1,10 +1,21 @@
-package com.example.bean;
+package board;
 
 import java.util.Date;
 
 public class BoardVO
 {
     private int id;
+    private String category;
+    private String name;
+    private String instruction;
+    private Date regdate;
+
+    public String getCategory() {
+        return category;
+    }
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     public int getId() {
         return id;
@@ -38,9 +49,7 @@ public class BoardVO
         this.regdate = regdate;
     }
 
-    private String name;
-    private String instruction;
-    private Date regdate;
+
 
 
 }
