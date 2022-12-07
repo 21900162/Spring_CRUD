@@ -42,7 +42,7 @@ public class BoardController {
 
     @RequestMapping(value = "/editok", method = RequestMethod.POST)
     public String deletePostOK(BoardVO vo){
-        if(boardService.updateBoard(vo) ==0)
+        if(boardService.updateBoard(vo) == 0)
             System.out.println("데이터 수정 실패");
         else
             System.out.println("데이터 수정 성공");

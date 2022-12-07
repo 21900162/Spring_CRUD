@@ -43,7 +43,7 @@
     </script>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>요리게시판</h1>
 <%--<%--%>
 <%--    BoardDAO boardDAO = new BoardDAO();--%>
 <%--    List<BoardVO> list = boardDAO.getBoardList();--%>

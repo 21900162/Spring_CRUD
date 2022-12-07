@@ -40,6 +40,23 @@
       <version>8.0.11</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.11</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+
+
+
   </dependencies>
   <build>
     <finalName>SpringProject</finalName>

@@ -27,7 +27,7 @@
         </select></td></tr>
         <tr><td>요리이름:</td><td><input type="text" name="name"/></td></tr>
         <tr><td>요리순서:</td><td><textarea cols="50" rows="5" name="instruction"> </textarea></td></tr>
-        <tr><td><a href="list.jsp">View All Records</a></td><td align="right"><input type="submit" value="Add Post"/></td></tr>
+        <tr><td><a href="list">View All Records</a></td><td align="right"><input type="submit" value="Add Post"/></td></tr>
     </table>
 </form>
 
