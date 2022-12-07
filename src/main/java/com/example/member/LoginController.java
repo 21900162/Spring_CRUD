@@ -37,6 +37,8 @@ public class LoginController {
         return returnURL;
     }
 
+
+
     // 로그아웃 하는 부분
     @RequestMapping(value="/logout")
     public String logout(HttpSession session) {

@@ -29,7 +29,6 @@
     <tr>
       <td>종류:</td>
       <td><form:select name="category" path="category">
-        <option value="">종류선택</option>
         <option value="한식">한식</option>
         <option value="중식">중식</option>
         <option value="일식">일식</option>
