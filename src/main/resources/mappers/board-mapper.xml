@@ -12,9 +12,7 @@
         (#{category} , #{name} , #{instruction})
     </insert>
     <update id="updateBoard">
-        update recipe
-        set category=#{category}, name=#{name}, instruction=#{instruction}}
-        where id=#{id}
+        update recipe set category=#{category}, name=#{name}, instruction=#{instruction} where id=#{id}
     </update>
     <delete id="deleteBoard">
         delete from recipe where id=#{id}
