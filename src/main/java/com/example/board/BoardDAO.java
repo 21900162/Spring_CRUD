@@ -1,4 +1,4 @@
-package board;
+package com.example.board;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;

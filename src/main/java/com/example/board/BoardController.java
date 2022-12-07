@@ -1,4 +1,4 @@
-package board;
+package com.example.board;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

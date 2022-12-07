@@ -1,6 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page import="board.BoardDAO" %>
-<%@ page import="board.BoardVO" %><%--
+<%@ page import="com.example.board.BoardDAO" %>
+<%@ page import="com.example.board.BoardVO" %><%--
   Created by IntelliJ IDEA.
   User: UserK
   Date: 2022-12-02

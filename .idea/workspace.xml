@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringProject:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b5cdb19-7d39-4f16-89ea-63bf0edc2f9f" name="변경" comment="change to MyBatis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/user/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
+    <list default="true" id="8b5cdb19-7d39-4f16-89ea-63bf0edc2f9f" name="변경" comment="add UserVO&#10;add UserDAO&#10;add UserServiceImpl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/member/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/util/LoginCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/UserK/IdeaProjects/SpringProject",
+    "last_opened_file_path": "C:/Users/UserK/IdeaProjects/SpringProject/target/SpringProject.war",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,22 +92,27 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UserK\IdeaProjects\SpringProject\src\main\webapp\WEB-INF\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UserK\IdeaProjects\SpringProject\src\main\webapp\resources" />
       <recent name="C:\Users\UserK\IdeaProjects\SpringProject\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\UserK\IdeaProjects\SpringProject\src\main\webapp\WEB-INF\login" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/target/SpringProject.war">
+        <artifact name="SpringProject:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringProject_war" />
+            <option name="CONTEXT_PATH" value="/SpringProject_war_exploded" />
           </settings>
-        </file>
+        </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="3b934fe9-00cf-4020-a853-1e52dce3b47f" />
+        <option name="BASE_DIRECTORY_NAME" value="148571de-21bd-4906-b6a1-f42fb5d6bc30" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -96,7 +120,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="7287" />
+        <option name="DEBUG_PORT" value="12085" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -160,6 +184,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringProject:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -175,7 +202,7 @@
       <workItem from="1670033687845" duration="19785000" />
       <workItem from="1670126463100" duration="7785000" />
       <workItem from="1670138285225" duration="384000" />
-      <workItem from="1670406881840" duration="8302000" />
+      <workItem from="1670406881840" duration="17163000" />
     </task>
     <task id="LOCAL-00001" summary="create database &amp; VOclass">
       <created>1669977296524</created>
@@ -205,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670411800119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add UserVO&#10;add UserDAO&#10;add UserServiceImpl">
+      <created>1670415254704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670415254704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +261,7 @@
     <MESSAGE value="create Controller &amp; DAO class" />
     <MESSAGE value="finish" />
     <MESSAGE value="change to MyBatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to MyBatis" />
+    <MESSAGE value="add UserVO&#10;add UserDAO&#10;add UserServiceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UserVO&#10;add UserDAO&#10;add UserServiceImpl" />
   </component>
 </project>

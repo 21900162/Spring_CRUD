@@ -7,6 +7,6 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 <typeAliases>
-    <typeAlias alias="board" type="board.BoardVO" />
+    <typeAlias alias="board" type="com.example.board.BoardVO" />
 </typeAliases>
 </configuration>

@@ -1,5 +1,5 @@
-<%@ page import="board.BoardDAO" %>
-<%@ page import="board.BoardVO" %>
+<%@ page import="com.example.board.BoardDAO" %>
+<%@ page import="com.example.board.BoardVO" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: UserK

@@ -1,6 +1,6 @@
-package board;
+package com.example.board;
 
-import board.BoardService;
+import com.example.board.BoardService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
