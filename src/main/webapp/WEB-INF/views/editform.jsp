@@ -29,10 +29,10 @@
     <tr>
       <td>종류:</td>
       <td><form:select name="category" path="category">
-        <option value="한식">한식</option>
-        <option value="중식">중식</option>
-        <option value="일식">일식</option>
-        <option value="베트남 음식">베트남 음식</option>
+        <form:option value="한식">한식</form:option>
+        <form:option value="중식">중식</form:option>
+        <form:option value="일식">일식</form:option>
+        <form:option value="베트남 음식">베트남 음식</form:option>
       </form:select></td>
     </tr>
     <tr><td>요리이름</td><td><form:input path = "name"/></td></tr>
